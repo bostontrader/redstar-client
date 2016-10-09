@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Thomas Radloff",
+    "email": "bostontrader@gmail.com",
+    "url": "https://github.com/bostontrader"
+  },
+  "bugs": {
+    "url": "https://github.com/bostontrader/redstar-client/issues"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
+  },
+  "description": "This is the client component of the redstar-* currency exchange.",
+  "devDependencies": {
+    "react-addons-test-utils": "^15.3.2",
+    "react-scripts": "0.6.1",
+    "react-shallow-testutils": "^2.0.0"
+  },
+  "homepage": "https://github.com/bostontrader/redstar-client#readme",
+  "keywords": [
+    "currency exchange",
+    "redstar"
+  ],
+  "license": "MIT",
+  "name": "redstar-client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bostontrader/redstar-client.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "version": "0.1.0"
+}
