@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 
-import Chart from './Chart.js'
-import            './Main.css'
+import                 './Main.css'
+import MainChart from  './MainChart.js'
+import MainHeader from './MainHeader.js'
 
 class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <p>This is the Main</p>
-        <Chart></Chart>
+        <p>This is the Main Content area</p>
+        <MainHeader></MainHeader>
+        <MainChart></MainChart>
       </div>
     )
   }
